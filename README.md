@@ -1,9 +1,5 @@
 # Sentinel-Core: A Multi-Layered Cyber-Resilient Framework for Securing Autonomous LLM Assistants
 
-**Reference:** https://idea.unisys.com/D8958
-
----
-
 ## **Project Description**
 
 Sentinel-Core is a Flask-based security framework designed to protect autonomous Large Language Model (LLM) assistants through a multi-layered architecture. The system implements comprehensive security controls across multiple functional layers including perception, governance, risk analysis, isolation, planning, execution, and judgment to ensure safe and secure operation of LLM-assisted workflows.
