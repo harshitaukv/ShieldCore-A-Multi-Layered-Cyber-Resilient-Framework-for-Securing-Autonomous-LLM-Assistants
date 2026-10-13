@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Sentinel Mail Guard",
+  "version": "1.0",
+  "description": "Detects prompt injection attacks in emails",
+  "permissions": ["activeTab"],
+  "host_permissions": ["http://127.0.0.1:5000/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
